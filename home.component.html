@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f18686;
+            /* Light gray background color */
+        }
+
+        .box {
+            padding: 300px;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            text-align: center;
+            color: #333;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        src="https://app.powerbi.com/view?r=eyJrIjoiOGU2NDYwNzgtMmU2Yy00YTZhLWI1OTktYjM5NDkyZmNmYTRlIiwidCI6IjllZjViOGZkLTcxMjAtNDdiMS1hM2VmLThmMjc2M2MzNmE0MSJ9"
+        style="width: 100%; height: 80vh; border: none;">
+    </div>
+    <script>
+        window.history.pushState({}, "", "/dashboard");
+    </script>
+</body>
+
+</html>
