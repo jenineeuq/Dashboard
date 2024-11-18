@@ -14,10 +14,10 @@ This project demonstrates the integration of a Power BI dashboard into an Angula
 ## Technologies Used
 
 - **Angular**: Frontend framework for building the user interface and handling the application logic.
+- **TypeScript**: Used alongside Angular for writing the application logic, providing type safety and better development tools.
 - **Power BI**: Business analytics tool used for creating interactive reports and dashboards.
 - **Power BI Embedded**: Embedding Power BI reports and dashboards into the Angular application using an embedded URL.
-- **JavaScript/TypeScript**: For the interactive and dynamic aspects of the application.
-- **HTML/CSS**: For building the structure and styling of the pages.
+- **JavaScript/HTML/CSS**: For the interactive and dynamic aspects of the application and the styling.
 
 ## Installation
 
